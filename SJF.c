@@ -50,3 +50,19 @@ avg_tat = (float)total / n;
 printf("Average Waiting Time= %f", avg_wt);
 printf("\nAverage Turnaround Time= %f", avg_tat);
 }
+
+
+
+//SJF Algorithm
+// Step 1: Start
+// Step 2: Accept the number of processes in the ready Queue
+// Step 3: For each process in the ready queue, assign the process id and accept the CPU burst time
+// Step 4: Start the Ready queue according the shortest Burst time by sorting according to lowest to highest burst time.
+// Step 5: Set the waiting time of the first process as ‘0’ and its turnaround time as its burst time.
+// Step 6: For each process in the ready queue, calculate 
+// (a) WT for process(n) = WT of process (n-1) + BT of process(n-1)
+// (b) TAT for Process(n) = WT of Process(n)+ BT for process(n)
+// Step 7: Calculate 
+// (a) Avg WT = Total WT / Number of process
+// (b) Avg TAT = Total TAT / Number of process
+// Step 8: Stop
