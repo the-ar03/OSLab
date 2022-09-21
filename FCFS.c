@@ -50,11 +50,11 @@ return 0;
 // FCFS Algorithm
 // Step 1: Start
 // Step 2: Accept the number of processes in the ready Queue
-// Step 3: For each process in the ready Q, assign the process id and accept the CPU burst time
-// Step 4: Set the waiting of the first process as ‘0’ and its burst time as its turn around time
+// Step 3: For each process in the ready queue, assign the process id and accept the CPU burst time
+// Step 4: Set the waiting of the first process as ‘0’ and its BT as its TAT
 // Step 5: for each process in the Ready Q calculate
-// (a) Waiting time for process(n)= waiting time of process (n-1) + Burst time of process(n-1)
-// (b) Turn around time for Process(n)= waiting time of Process(n)+ Burst time for process(n)
+// (a) WT for process(n)= WT of process (n-1) + BT of process(n-1)
+// (b) TAT for Process(n)= WT of Process(n)+ BT for process(n)
 // Step 6: Calculate
 // (a) Avg WT = total WT / Number of process
 // (b) Avg TAT = total TAT / Number of process
