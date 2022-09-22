@@ -1,10 +1,25 @@
-echo "1.Addition 2.Subtraction 3.Multiplication 4.Division"
-read n
-echo "Enter the operends"
+echo “ Menu Based Calculator”
+
+echo "Enter the Operands"
+
 read a
+
 read b
-case $n in
-"1") echo "$a +$b =`expr $a \ + $b`";
-"2") echo "$a-$b=`expr $a \ - $b`";
-"3") echo "$a*$b=`expr $a \ * $b`";
-"4") echo "$a/$b=`expr $a \ / $b`";
+
+echo "Enter the Operator"
+
+read o
+
+case $o in
+
+"+" ) echo “$a + $b” = `expr $a + $b`;;
+
+"-" ) echo “$a - $b” = `expr $a - $b`;;
+
+"*" ) echo “$a * $b” = `expr $a * $b`;;
+
+"/" ) echo “$a / $b” = `expr $a / $b`;;
+
+* ) echo " Inavlid Operation"
+
+esac
