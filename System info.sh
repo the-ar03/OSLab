@@ -1,0 +1,5 @@
+echo "NETWORK = $(uname –n)"
+echo "Kernel NAME = $(uname –s)"
+echo "Kernel version = $(uname –v)"
+echo "Operating System = $(uname –m)"
+echo "All information = $(uname –a)"
