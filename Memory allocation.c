@@ -38,12 +38,6 @@ for(i=0;i<n;i++)
 
 printf("\n enter the page size %d:",i+1);
 
- L SAI KISHORE
-
- 36110657
-
-38
-
 scanf("%d",&p[i]);
 
 }
@@ -93,12 +87,6 @@ break;
 }
 
 }
-
- L SAI KISHORE
-
- 36110657
-
-39
 
 break;
 
@@ -150,12 +138,6 @@ for(j=0;j<n;j++)
 
 if(p[i]<f3[j])
 
- L SAI KISHORE
-
- 36110657
-
-40
-
 {
 
 k++;
@@ -205,12 +187,6 @@ printf("\n----------\n");
 t=0;
 
 for(i=0;i<n1;i++)
-
- L SAI KISHORE
-
- 36110657
-
-
 
 {
 
