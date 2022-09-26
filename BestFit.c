@@ -43,3 +43,15 @@ int main()
 		printf("\n%d\t\t%d\t\t%d\t\t%d\t\t%d",i,p[i],parray[i],b[parray[i]],fragment[i]);
 	return(0);
 }
+
+
+
+// Output:
+// 3
+// 3
+// 100
+// 300
+// 50
+// 20
+// 150
+// 80
