@@ -51,3 +51,18 @@ int main()
  printf("\n%d\t\t%d\t\t%d\t\t%d\t\t%d",i,f[i],ff[i],b[ff[i]],frag[i]);
  return(0);
 }
+
+
+
+
+// output:
+// Test case 1:
+
+// 3
+// 3
+// 100
+// 500
+// 200
+// 20
+// 300
+// 150
